@@ -113,65 +113,12 @@ img {
     background-color: whitesmoke;
 }
 
-/* tutorial nav */
-
-.tutorial-nav {
-    display: flex;
+.project-list {
+	font-size: 1.5em;
 }
 
-
-.tutorial-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.tutorial-nav li {
-    float: left;
-}
-
-
-.tutorial-nav li a {
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-}
-
-.tutorial-nav a:hover {
-    background-color: whitesmoke;
-}
-
-
-
-/* Other Project Reference Link */
-.other-projects{
-    margin-top: 2%;
-    color: lightgray;
-}
-
-.other-projects ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.other-projects li {
-    font-size: min(3.5vh, 3.5vw);
-    float: left;
-}
-
-
-.other-projects li a {
-    display: block;
-    color: lightgray;
-    padding: 16px;
-    text-decoration: none;
-}
-
-.other-projects li a:hover{
-    color: gray;
+.project-list ul {
+	text-align: center;
 }
 
 /* Copy Right Logo */
