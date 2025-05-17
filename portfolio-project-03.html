@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Mosser Developer Portfolio</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.0.0/css/normalize.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+     +Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/jlmosser.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>Console Chat Server</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A roguelike monster-collector</p>
+        <img src="images/portfolio-03.png" alt="a picture of Jacob Mosser" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Role: Network Systems Programmer</p>
+        <p>Technologies: C, C++, POSIX Sockets, TCP/IP, UDP, Select, Multithreading, Hash Tables</p>
+        <p>
+            A console-based chat server capable of handling multiple clients concurrently. Built to
+            demonstrate low-level socket communication, thread-safe design, and secure session management.
+            All interactions follow a custom command protocol, supporting features like user registration,
+            direct and broadcast messaging, and real-time user list retrieval.
+        </p>
+        <p>Key Contributions</p>
+        <p> • Implemented multithreaded client handling with select() for efficient in-thread multiplexing.. </p>
+        <p> • Built a custom command interpreter, supporting commands like ~register, ~login, ~send,
+            ~getlist, and ~getlog.
+        </p>
+        <p> • Designed and developed a secure authentication system using a hashtable for unique user credentials
+            and session management.
+        </p>
+        <p> • Enabled UDP broadcast functionality for system-wide announcements to all connected clients. </p>
+        <p> • Structured the application using object-oriented principles, organizing code into reusable
+            components such as ChatServer, ClientHandler, MessageHandler, and User.
+        </p>
+        <p> • Documented all major systems, including sequence diagrams, error handling strategies, and system architecture in a formal technical design document.g code into reusable
+            components such as ChatServer, ClientHandler, MessageHandler, and User. </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:jacob.mosser.sr@gmail.com" class="footer-link">jacob.mosser.sr@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://www.linkedin.com/in/jacoblmosser/">
+                    <i class="fa-brands fa-linkedin" style="color: #63E6BE;"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://github.com/JLMosser">
+                    <i class="fa-brands fa-github" style="color: #63E6BE;"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://www.hackerrank.com/profile/jlmosser">
+                    <i class="fa-brands fa-hackerrank" style="color: #63E6BE;"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
